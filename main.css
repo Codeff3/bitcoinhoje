@@ -1,0 +1,71 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.center {
+  text-align: center;
+  margin: 10% 0;
+}
+
+#moeda {
+  font-size: 51px;
+  color: #f7931a;
+  margin-bottom: 2%;
+}
+
+.symbol {
+  font-size: 61px;
+  color: #ccc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=text] {
+  font-size: 51px;
+  border: 0;
+}
+
+*:focus, #estrangeiro {
+  width: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #ffdfa2;
+}
+
+*:focus, #nacional {
+  width: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #ffdfa2;
+}
+
+#estrangeiro:focus {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #ffdfa2;
+}
+
+#nacional:focus {
+  background-color: #ffdfa2;
+}
+
+#nacional:hover {
+  background-color: #ffdfa2;
+}
+
+#estrangeiro:hover {
+  background-color: #ffdfa2;
+}
+
+.optional {
+  color: #f7931a;
+  font-size: 21px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input:focus{
+    outline: 0;
+}
+
+.center{
+    text-align: center;
+    margin: 10% 0;
+}
+
+#moeda{
+    font-size: 51px;
+    color: #f7931a;
+    margin-bottom: 2%;
+}
+
+.symbol{
+    font-size: 61px;
+    color: #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=text]{
+    font-size: 51px;
+    border: 0;
+}
+
+*:focus, #estrangeiro{
+    width: 0;
+    transition: 0.5s;
+    background-color: rgb(255, 223, 162);
+}
+
+*:focus, #nacional{
+    width: 0;
+    transition: 0.5s;
+    background-color: rgb(255, 223, 162);
+}
+
+#estrangeiro:focus{
+    transition: 0.5s;
+    background-color: rgb(255, 223, 162);
+}
+
+
+#nacional:focus{
+    background-color: rgb(255, 223, 162);
+}
+
+#nacional:hover{
+    background-color: rgb(255, 223, 162);
+}
+
+#estrangeiro:hover{
+    background-color: rgb(255, 223, 162);
+}
+
+
+
+.optional{
+    color: #f7931a;
+    font-size: 21px;
+}
